@@ -14,6 +14,7 @@ while true; do
     case $mode in
         1)
             while true; do
+                clear
                 echo "Select RAM for execute on terminal"
                 echo ""
                 echo "1.-1GiB"
@@ -26,18 +27,21 @@ while true; do
 
                 case $tram in
                     1)
+                        clear
                         java -Xms1G -Xmx1G -jar server-1.20.4.jar --nogui
                         echo "The server has stopped successfully"
                         read -p "Press [Enter] to continue..."
                         break
                         ;;
                     2)
+                        clear
                         java -Xms2G -Xmx2G -jar server-1.20.4.jar --nogui
                         echo "The server has stopped successfully"
                         read -p "Press [Enter] to continue..."
                         break
                         ;;
                     3)
+                        clear
                         java -Xms4G -Xmx4G -jar server-1.20.4.jar --nogui
                         echo "The server has stopped successfully"
                         read -p "Press [Enter] to continue..."
@@ -47,6 +51,7 @@ while true; do
                         break
                         ;;
                     *)
+                        clear
                         echo "Invalid option"
                         ;;
                 esac
@@ -54,6 +59,7 @@ while true; do
             ;;
         2)
             while true; do
+                clear
                 echo "Select RAM for execute on interface"
                 echo ""
                 echo "1.-1GiB"
@@ -66,21 +72,26 @@ while true; do
 
                 case $iram in
                     1)
+                        clear
                         java -Xms1G -Xmx1G -jar server-1.20.4.jar
                         exit
                         ;;
                     2)
+                        clear
                         java -Xms2G -Xmx2G -jar server-1.20.4.jar
                         exit
                         ;;
                     3)
+                        clear
                         java -Xms4G -Xmx4G -jar server-1.20.4.jar
                         exit
                         ;;
                     4)
+                        clear
                         break
                         ;;
                     *)
+                        clear
                         echo "Invalid option"
                         ;;
                 esac
@@ -89,7 +100,7 @@ while true; do
         3)
             exit
             ;;
-        *)
+        *)  clear
             echo "Invalid option"
             ;;
     esac

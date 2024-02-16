@@ -18,29 +18,29 @@ Within the cloned repository, you'll find the server.properties file.
 This file contains various customizable parameters that you can adjust according to your preferences.
 Here's an explanation of some of the most important parameters:
 
-Seed: The seed that determines world generation. You can set it in the server.properties(OPTIONAL)
+The seed that determines world generation. You can set it in the server.properties(OPTIONAL)
 ```properties
 level-seed=:[YOUR_SEED]
 ```
-World Name: The name of the world on the server. You can change it in the server.properties(OPTIONAL). This parameter comes by default "world"
+The name of the world on the server. You can change it in the server.properties(OPTIONAL). This parameter comes by default "world"
 
 ```properties
 level-name=[YOUR_WOLD_NAME]
 ```
-Message of the Day (MOTD): The message displayed to players on the server list. You can change it in the server.properties file as
+(MOTD)The message displayed to players on the server list. You can change it in the server.properties file as
 ```properties
 motd=A Minecraft Server
 ```
-PvP: Sets whether player versus player combat is enabled. You can enable or disable it in the server.properties file as.
+Sets whether player versus player combat is enabled. You can enable or disable it in the server.properties file as.
 ```properties
 pvp=[true/false]
 ```
-Difficulty: The server's difficulty level. You can set it in the server.properties file as difficulty=peaceful, difficulty=easy, difficulty=normal, or difficulty=hard.
+The server's difficulty level. You can set it in the server.properties file as difficulty=peaceful, difficulty=easy, difficulty=normal, or difficulty=hard.
 ```properties
 difficulty=[peaceful/easy/normal/hard]
 ```
 
-Server IP: The IP address the server binds to. You can set it in the server.properties
+The IP address the server binds to. You can set it in the server.properties
 This parameter comes by default like this
 ```properties
 server-ip=
@@ -53,11 +53,11 @@ And if you want to host the server from your IP, set the parameter like this(CHA
 ```properties
 server-ip=[YOUR_IP_ADDRESS]
 ```
-Max Players: The maximum number of players that can be connected to the server at the same time. You can set it in the server.properties file(OPTIONAL).
+The maximum number of players that can be connected to the server at the same time. You can set it in the server.properties file(OPTIONAL).
 ```properties
 max-players=[RECOMMENDED BETWEEN 1-20]
 ```
-Online Mode: Sets whether the server requires authentication from Minecraft.net for joining players(Premium/no-Premium). You can enable or disable it in the server.properties file as true(PREMIUM) or false(NO PREMIUM).
+Sets whether the server requires authentication from Minecraft.net for joining players(Premium/no-Premium). You can enable or disable it in the server.properties file as true(PREMIUM) or false(NO PREMIUM).
 ```properties
 online-mode=[true/false]
 ```

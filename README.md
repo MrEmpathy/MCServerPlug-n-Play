@@ -1,4 +1,4 @@
-# Minecraft Plug and Play 1.20.4[VANILLA]
+# Minecraft Server Plug and Play 1.20.4[VANILLA]
 
 Welcome! Here you'll find all the necessary files to set up and run your own Minecraft server.
 
